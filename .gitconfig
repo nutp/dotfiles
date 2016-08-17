@@ -1,0 +1,42 @@
+[user]
+  name = Nuttapol Sangsuriyachot
+  email = nuttapol.s@taskworld.com
+
+[core]
+  editor = /usr/local/bin/vim
+  excludesfile = /Users/nuttapol/.gitignore_global
+
+[color]
+  ui = auto
+  branch = auto
+  diff = auto
+  interactive = auto
+
+[alias]
+  a = add
+  br = branch
+  ci = commit
+  ca = commit -a
+  cb = checkout -b
+  cl = clone
+  cm = commit -m
+  co = checkout
+  cu = commit --amend
+  df = diff
+  dfc = diff --cached
+  f = fetch
+  i = init
+  l = log
+  ls = log --stat
+  lp = log --oneline --graph --decorate
+  m = merge
+  mff = merge --ff-only
+  p = push
+  pl = pull
+  r = remote
+  rb = rebase
+  rs = reset
+  st = status
+
+[credential]
+  helper = osxkeychain
